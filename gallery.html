@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | TEAM GARUTHMAAN</title>
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="club-header">
+        <div class="college-logo">
+            <img src="jj.png" alt="College Logo">
+        </div>
+        <div class="club-name">
+            <h1><span class="college-name">Jyothy Institute of Technology</span> | TEAM GARUTHMAAN</h1>
+        </div>
+        <div class="club-logo">
+            <img src="h.png" alt="TEAM GARUTHMAAN Logo">
+        </div>
+    </header>
+
+    <div class="hamburger-menu">
+        <button class="hamburger-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="hamburger-content">
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+            <a href="projects.html"><i class="fas fa-cogs"></i> Projects</a>
+            <a href="events.html"><i class="fas fa-calendar-alt"></i> Events</a>
+            <a href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+            <a href="shop.html"><i class="fas fa-plane"></i> Shop</a>
+            <a href="payment.html"><i class="fas fa-credit-card"></i> Payment</a>
+            <a href="journey.html"><i class="fas fa-suitcase"></i> Journey</a>
+            <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+    </div>
+
+    <!-- Gallery Section-->
+    <section id="gallery" class="gallery-section">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <img src="2018.png" alt="Image 1">
+            <p>Team Garuthmaan 2018</p>
+          </div>
+          <div class="gallery-item">
+            <img src="2019.png" alt="Image 2">
+            <p>Team Garuthmaan 2019</p>
+          </div>
+          <div class="gallery-item">
+            <img src="2020.png" alt="Image 3">
+            <p>Team Garuthmaan 2020</p>
+          </div>
+          <div class="gallery-item">
+            <img src="team.png" alt="Image 3">
+            <p>Team Garuthmaan 2023</p>
+          </div>
+        </div>
+      
+          <!-- Modal for image expansion -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Aeroclub | All Rights Reserved</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/TEAMGARUTHMAAN" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/teamgaruthmaan" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/TEAMGARUTHMAAN" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!-- Include your scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
